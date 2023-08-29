@@ -21,7 +21,7 @@ public class SmartTv {
         canal = novoCanal;
     }
     public void aumentarCanal(){
-        canal++;
+        canal= canal + 1;
     }
     public void diminuirCanal(){
         canal--;
